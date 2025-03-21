@@ -1,0 +1,191 @@
+2025-02-27 14:30:55 - [main] - c.b.S.SpringMysqlApplication - Starting SpringMysqlApplication using Java 23.0.1 with PID 4116 (E:\Capg\Spring_mysql\target\classes started by anand in E:\Capg\Spring_mysql)
+2025-02-27 14:30:55 - [main] - c.b.S.SpringMysqlApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 14:30:55 - [main] - c.b.S.SpringMysqlApplication - The following 1 profile is active: "dev"
+2025-02-27 14:30:56 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-27 14:30:56 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-02-27 14:30:57 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-27 14:30:57 - [main] - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-27 14:30:57 - [main] - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27 14:30:57 - [main] - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-27 14:30:57 - [main] - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1799 ms
+2025-02-27 14:30:57 - [main] - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-27 14:30:58 - [main] - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-27 14:30:58 - [main] - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-27 14:30:58 - [main] - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-27 14:30:58 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-27 14:30:58 - [main] - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46e388ec
+2025-02-27 14:30:58 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-27 14:30:58 - [main] - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-27 14:30:58 - [main] - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-27 14:30:58 - [main] - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-27 14:30:59 - [main] - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-27 14:30:59 - [main] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 14:31:00 - [main] - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 14:31:00 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-27 14:31:00 - [main] - c.b.S.SpringMysqlApplication - Started SpringMysqlApplication in 5.352 seconds (process running for 5.815)
+2025-02-27 14:31:05 - [SpringApplicationShutdownHook] - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27 14:31:05 - [tomcat-shutdown] - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-27 14:31:05 - [SpringApplicationShutdownHook] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 14:31:05 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-27 14:31:05 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-27 14:50:57 - [main] - c.b.S.SpringMysqlApplication - Starting SpringMysqlApplication using Java 23.0.1 with PID 14656 (E:\Capg\Spring_mysql\target\classes started by anand in E:\Capg\Spring_mysql)
+2025-02-27 14:50:57 - [main] - c.b.S.SpringMysqlApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 14:50:57 - [main] - c.b.S.SpringMysqlApplication - The following 1 profile is active: "dev"
+2025-02-27 14:50:58 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-27 14:50:58 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-02-27 14:50:58 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-27 14:50:58 - [main] - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-27 14:50:59 - [main] - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27 14:50:59 - [main] - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-27 14:50:59 - [main] - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1680 ms
+2025-02-27 14:50:59 - [main] - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-27 14:50:59 - [main] - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-27 14:50:59 - [main] - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-27 14:50:59 - [main] - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-27 14:50:59 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-27 14:51:00 - [main] - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d4f67e
+2025-02-27 14:51:00 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-27 14:51:00 - [main] - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-27 14:51:00 - [main] - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-27 14:51:00 - [main] - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-27 14:51:01 - [main] - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-27 14:51:01 - [main] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 14:51:01 - [main] - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 14:51:02 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-27 14:51:02 - [main] - c.b.S.SpringMysqlApplication - Started SpringMysqlApplication in 5.342 seconds (process running for 5.722)
+2025-02-27 14:52:32 - [http-nio-8080-exec-1] - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-27 14:52:32 - [http-nio-8080-exec-1] - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-27 14:52:32 - [http-nio-8080-exec-1] - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-27 14:52:52 - [http-nio-8080-exec-4] - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-02-27 14:55:14 - [SpringApplicationShutdownHook] - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27 14:55:14 - [tomcat-shutdown] - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-27 14:55:14 - [SpringApplicationShutdownHook] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 14:55:14 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-27 14:55:14 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-27 15:11:03 - [main] - c.b.S.SpringMysqlApplication - Starting SpringMysqlApplication using Java 23.0.1 with PID 19436 (E:\Capg\Spring_mysql\target\classes started by anand in E:\Capg\Spring_mysql)
+2025-02-27 15:11:03 - [main] - c.b.S.SpringMysqlApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 15:11:03 - [main] - c.b.S.SpringMysqlApplication - The following 1 profile is active: "dev"
+2025-02-27 15:11:04 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-27 15:11:04 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-02-27 15:11:04 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-27 15:11:04 - [main] - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-27 15:11:04 - [main] - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27 15:11:05 - [main] - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-27 15:11:05 - [main] - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1534 ms
+2025-02-27 15:11:05 - [main] - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-27 15:11:05 - [main] - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-27 15:11:05 - [main] - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-27 15:11:05 - [main] - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-27 15:11:05 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-27 15:11:06 - [main] - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ea07516
+2025-02-27 15:11:06 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-27 15:11:06 - [main] - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-27 15:11:06 - [main] - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-27 15:11:06 - [main] - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-27 15:11:06 - [main] - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-27 15:11:07 - [main] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 15:11:07 - [main] - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 15:11:07 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-27 15:11:08 - [main] - c.b.S.SpringMysqlApplication - Started SpringMysqlApplication in 5.093 seconds (process running for 5.495)
+2025-02-27 15:11:11 - [SpringApplicationShutdownHook] - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27 15:11:11 - [tomcat-shutdown] - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-27 15:11:11 - [SpringApplicationShutdownHook] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 15:11:11 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-27 15:11:11 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-27 17:00:43 - [main] - c.b.S.SpringMysqlApplication - Starting SpringMysqlApplication using Java 23.0.1 with PID 9576 (E:\Capg\Spring_mysql\target\classes started by anand in E:\Capg\Spring_mysql)
+2025-02-27 17:00:43 - [main] - c.b.S.SpringMysqlApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 17:00:43 - [main] - c.b.S.SpringMysqlApplication - The following 1 profile is active: "dev"
+2025-02-27 17:00:44 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-27 17:00:44 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-02-27 17:00:45 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-27 17:00:45 - [main] - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-27 17:00:45 - [main] - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27 17:00:45 - [main] - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-27 17:00:45 - [main] - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1836 ms
+2025-02-27 17:00:45 - [main] - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-27 17:00:45 - [main] - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-27 17:00:46 - [main] - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-27 17:00:46 - [main] - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-27 17:00:46 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-27 17:00:46 - [main] - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c92a549
+2025-02-27 17:00:46 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-27 17:00:47 - [main] - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-27 17:00:47 - [main] - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-27 17:00:47 - [main] - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-27 17:00:47 - [main] - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-27 17:00:47 - [main] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 17:00:48 - [main] - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-02-27 17:00:49 - [main] - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 17:00:49 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-27 17:00:50 - [main] - c.b.S.SpringMysqlApplication - Started SpringMysqlApplication in 7.102 seconds (process running for 7.679)
+2025-02-27 17:00:52 - [SpringApplicationShutdownHook] - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27 17:00:53 - [tomcat-shutdown] - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-27 17:00:53 - [SpringApplicationShutdownHook] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 17:00:53 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-27 17:00:53 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-02-27 17:03:11 - [main] - c.b.S.SpringMysqlApplication - Starting SpringMysqlApplication using Java 23.0.1 with PID 20312 (E:\Capg\Spring_mysql\target\classes started by anand in E:\Capg\Spring_mysql)
+2025-02-27 17:03:11 - [main] - c.b.S.SpringMysqlApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 17:03:11 - [main] - c.b.S.SpringMysqlApplication - The following 1 profile is active: "dev"
+2025-02-27 17:03:12 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-27 17:03:12 - [main] - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-02-27 17:03:13 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-27 17:03:13 - [main] - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-27 17:03:13 - [main] - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-27 17:03:13 - [main] - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-27 17:03:13 - [main] - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1960 ms
+2025-02-27 17:03:13 - [main] - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-27 17:03:14 - [main] - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-27 17:03:14 - [main] - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-02-27 17:03:14 - [main] - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-27 17:03:14 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-02-27 17:03:14 - [main] - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bb97fe7
+2025-02-27 17:03:14 - [main] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-02-27 17:03:14 - [main] - org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-27 17:03:14 - [main] - org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-02-27 17:03:14 - [main] - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-27 17:03:15 - [main] - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-27 17:03:15 - [main] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 17:03:16 - [main] - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-02-27 17:03:17 - [main] - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 17:03:18 - [main] - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-27 17:03:18 - [main] - c.b.S.SpringMysqlApplication - Started SpringMysqlApplication in 7.356 seconds (process running for 8.083)
+2025-02-27 17:03:20 - [SpringApplicationShutdownHook] - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-27 17:03:20 - [tomcat-shutdown] - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-02-27 17:03:20 - [SpringApplicationShutdownHook] - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-27 17:03:20 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-02-27 17:03:20 - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
